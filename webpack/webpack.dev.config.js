@@ -21,7 +21,7 @@ module.exports = {
             },
             {
                 test: /\.css$/,
-                include: appDir,
+
                 use: [
                     {loader: 'style-loader'},
                     {loader: 'css-loader'}

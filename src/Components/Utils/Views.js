@@ -1,5 +1,5 @@
 const views = {
-    'welcome': 'Welcome/',
+    'welcome': 'Folder/',
 }
 
 export default views;

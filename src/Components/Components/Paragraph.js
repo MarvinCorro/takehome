@@ -33,16 +33,9 @@ export default class Button extends React.Component {
     render() {
 
         return (
-            <button
-                type={this.props.type||'button'}
-                onClick={ (e) => {
-                    if(this.props.onClick !== undefined) {
-                        this.props.onClick.bind(this)
-                    }
-                    this.onClick.bind(this, e)
-                }}
-            >{this.props.text}
-            </button>
+            <p>
+                {this.props.text}
+            </p>
         );
     }
 }
